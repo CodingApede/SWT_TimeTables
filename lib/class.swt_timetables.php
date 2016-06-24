@@ -73,6 +73,7 @@ class swt_timetables{
 			
 			
 		}
+		//arsort($alltimes,3);
 		//$this->sortTimes($alltimes[1],'3');
 		//print_r($alltimes);
 		return $alltimes;
@@ -88,6 +89,7 @@ class swt_timetables{
 		$ret=array();
 		reset($array);
 		foreach ($array as $ii => $va) {
+			echo "Sorter: ii=".$ii." | key==".$key;
 			$sorter[$ii]=$va[$key];
 		}
 		asort($sorter);

@@ -1,1 +1,49 @@
 @CHARSET "ISO-8859-1";
+
+body{
+	 font-family: 'Josefin Sans', sans-serif;
+	 font-size:2rem;
+}
+
+.content{
+	width:100%;
+}
+
+#config{
+	display:none;
+}
+
+h2, .centered{
+	text-align:center;
+}
+.menu{
+	border-bottom:1px solid #444;
+}
+.content table{
+	width:100%;
+	font-size:2rem;
+}
+.content table tr:nth-child(even){
+	background: #CCC;
+}
+.content table th{
+	border-bottom:1px solid #444;
+}
+.content table th,.content table td{
+	width:25%;
+	padding:0.3rem;
+}
+.nav{
+	font-size:2rem;
+	font-weight:bold;
+	color:#444;
+}
+.nav li a i{
+	margin-right:0.5rem;
+}
+
+.nav li a{
+	color:#444;
+}
+
+
