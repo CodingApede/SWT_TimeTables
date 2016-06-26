@@ -39,7 +39,7 @@ function getTimes(){
 		   success: function(data){
 			  var times= jQuery.parseJSON(data);
 		      //console.log('Data: '+times);
-		      result="<table name='mytable' id='mytable' class='tablesorter'><thead><tr><th>Haltestelle</th><th>Linie</th><th>Richtung</th><th>Zeit</th></tr></thead><tbody>"
+		      result="<table name='mytable' id='mytable' class='tablesorter'><thead><tr><th>Haltestelle</th><th>Linie</th><th>Richtung</th><th>Zeit (min)</th></tr></thead><tbody>"
 		      for(i=1;i<times.length;i++){
 		    	  if(i%11!=0){
 		    		  result+="<tr><td>"+times[i][3]+"</td><td>"+times[i][0]+"</td><td>"+times[i][1]+"</td><td>"+times[i][2]+"</td></tr>";  

@@ -3,10 +3,16 @@
 body{
 	 font-family: 'Josefin Sans', sans-serif;
 	 font-size:2rem;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .content{
 	width:100%;
+    margin-top:3rem;
 }
 
 #config{
@@ -16,33 +22,61 @@ body{
 h2, .centered{
 	text-align:center;
 }
-.menu{
-	border-bottom:1px solid #444;
-}
+
 .content table{
 	width:100%;
 	font-size:2rem;
 }
-.content table tr:nth-child(even){
+/*.content table tr:nth-child(even){
 	background: #CCC;
-}
+}*/
 .content table th{
-	border-bottom:1px solid #444;
+    width:25%;
+	padding:0.3rem 0.8rem 0 0.8rem;
+    background:rgba(255,255,255,0.7);
+    border-bottom: 1px solid #444;
 }
-.content table th,.content table td{
+
+.content table td{
 	width:25%;
-	padding:0.3rem;
+	padding:0.3rem 0.8rem 0 0.8rem;
+    background:rgba(255,255,255,0.7);
 }
-.nav{
+.navi{
 	font-size:2rem;
 	font-weight:bold;
 	color:#444;
+    background:rgba(255,255,255,0.7);
+    list-style:none !important;
+    width:100%;
+    padding:0;
+    overflow:auto;
 }
-.nav li a i{
+
+.navi li{
+    float:left;
+    text-align:center;
+    width:50%;
+    padding:1rem 0 1rem 0;
+}
+
+.navi .active{
+    background:rgba(255,255,255,1);
+}
+
+.navi li a{
+    display:block;
+}
+
+.navi .active a,.navi li a:hover{
+    text-decoration:none;
+}
+
+.navi li a i{
 	margin-right:0.5rem;
 }
 
-.nav li a{
+.navi li a{
 	color:#444;
 }
 
