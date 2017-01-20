@@ -3,11 +3,14 @@
 body{
 	 font-family: 'Josefin Sans', sans-serif;
 	 font-size:2rem;
-    background: url(../img/background.jpg) no-repeat center center fixed;
+    /*background: url(../img/background.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+	*/
+	background:#444;
+	color:white;
 }
 
 .content{
@@ -26,6 +29,7 @@ h2, .centered{
 .content table{
 	width:100%;
 	font-size:2rem;
+	color:white;
 }
 /*.content table tr:nth-child(even){
 	background: #CCC;
@@ -33,14 +37,14 @@ h2, .centered{
 .content table th{
     width:25%;
 	padding:0.3rem 0.8rem 0 0.8rem;
-    background:rgba(255,255,255,0.7);
+    /*background:rgba(255,255,255,0.7);*/
     border-bottom: 1px solid #444;
 }
 
 .content table td{
 	width:25%;
 	padding:0.3rem 0.8rem 0 0.8rem;
-    background:rgba(255,255,255,0.7);
+    /*background:rgba(255,255,255,0.7);*/
 }
 .navi{
 	font-size:2rem;

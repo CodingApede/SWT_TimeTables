@@ -1,7 +1,7 @@
 var times="";
 
 function sortTable(){
-	  var rows = $('#mytable tbody  tr').get();
+	  var rows = $('#mytable tbody tr').get();
 
 	  rows.sort(function(a, b) {
 

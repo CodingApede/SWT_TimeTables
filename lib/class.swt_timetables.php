@@ -6,7 +6,7 @@
  * 24.6.2016
  * Version 0.1
  * 
- * Class to extract depature times of Busses at Tübingen, Germany.
+ * Class to extract depature times of Busses at Tï¿½bingen, Germany.
  * Just needed parameters ar busstations ID and busstations Name.
  */
 
@@ -14,6 +14,10 @@
 class swt_timetables{
 	
 	private $stations= array();
+	
+	function __construct(){
+		
+	}
 	
 	function swt_timetables(){
 		
